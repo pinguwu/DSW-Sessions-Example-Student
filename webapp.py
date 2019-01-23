@@ -32,7 +32,7 @@ def renderPage2():
     session["firstName"] = request.form["firstName"] #adds first name to the cookie
     session["lastName"] = request.form["lastName"] #adds last name to the cookie
     
-    return render_template('page 2.html')
+    return render_template('page2.html')
 
 @app.route('/page3',methods=['GET','POST'])
 def renderPage3():
